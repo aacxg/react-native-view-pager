@@ -1,4 +1,4 @@
-import React, { PropTypes, Component } from 'react';
+import React, {  Component } from 'react';
 import {
   View,
   ListView,
@@ -9,7 +9,7 @@ import Scroller from 'react-native-scroller';
 import {createResponder} from 'react-native-gesture-responder';
 import TimerMixin from 'react-timer-mixin';
 import reactMixin from 'react-mixin';
-
+import PropTypes from 'prop-types'
 const MIN_FLING_VELOCITY = 0.5;
 
 export default class ViewPager extends Component {
